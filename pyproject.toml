@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vegavis"
+version = "0.1.0"
+description = ""
+authors = ["Charlie <charlie@vegaprotocol.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.8.2"
+numpy = "^1.26.2"
+scipy = "^1.11.4"
+requests = "^2.31.0"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.9"
+ipywidgets = "^8.1.1"
+black = {extras = ["jupyter"], version = "^23.12.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
